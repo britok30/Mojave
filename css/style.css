@@ -575,16 +575,19 @@ MEDIA QUERIES
     }
 
     #entertainment {
-        height: auto;
+        height: 100vh;
+        ;
     }
 
     .ent-head {
+        font-size: 2.5rem;
         padding-top: 5rem;
-        width: 65%;
+        width: 45%;
     }
 
     .ent-p {
-        width: 85%;
+        font-size: 1.5rem;
+        width: 80%;
         padding-bottom: 3rem;
     }
 
