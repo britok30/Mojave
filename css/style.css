@@ -580,8 +580,8 @@ MEDIA QUERIES
     }
 
     .ent-head {
-        font-size: 2.5rem;
-        padding-top: 5rem;
+        font-size: 3rem;
+        padding: .5rem;
         width: 45%;
     }
 
