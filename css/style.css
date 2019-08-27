@@ -1,0 +1,679 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-family: "Lato",
+        sans-serif
+}
+
+/* -----------------------
+UTILITIES
+----------------------- */
+
+p {
+    font-size: 1.8rem;
+    line-height: 1.5;
+    text-align: center;
+    width: 52%;
+    margin: auto;
+    padding-top: 3rem;
+    font-weight: 300;
+}
+
+h1 {
+    font-size: 6.4rem;
+    font-weight: 300;
+    padding-top: 9rem;
+    text-align: center;
+    width: 85%;
+    margin: auto;
+}
+
+h2 {
+    font-size: 4.8rem;
+    text-align: center;
+    margin: auto;
+    font-weight: 100;
+    width: 50%;
+
+}
+
+ul {
+    list-style: none;
+}
+
+.align-center {
+    text-align: center;
+}
+
+.align-left {
+    text-align: left;
+}
+
+.align-right {
+    text-align: right;
+}
+
+/* -----------------------
+NAVBAR
+----------------------- */
+
+.navbar {
+    font-size: 1.3rem;
+    border-bottom: solid .1rem;
+    border-color: rgb(206, 206, 206);
+    font-weight: 300;
+    height: 4.8rem;
+}
+
+
+.navbar-brand {
+    font-size: 3rem;
+    font-weight: 100;
+}
+
+.nav-item {
+    padding-right: 2rem;
+}
+
+.navbar .btn {
+    font-size: 1.3rem
+}
+
+
+/* -----------------------
+INTRO
+----------------------- */
+
+#intro {
+    background-color: #fafafa;
+
+}
+
+.text-prime {
+    color: #888;
+}
+
+#intro h1 {
+    padding-top: 16rem;
+}
+
+.hero {
+    width: 81%;
+    padding-top: 7rem;
+    margin: auto;
+    padding-bottom: 10rem;
+}
+
+
+/* -----------------------
+MUSIC
+----------------------- */
+
+.apple-head {
+    font-size: 4.8rem;
+    font-weight: 400;
+    padding-top: 10rem;
+}
+
+.red-btn {
+    font-size: 1.6rem;
+    padding: .5rem 1.5rem;
+}
+
+.learn {
+    font-size: 1.8rem;
+}
+
+.hero-2 {
+    width: 65%;
+    padding-top: 7rem;
+    margin: auto;
+    padding-bottom: 10rem;
+}
+
+/* -----------------------
+MOVIE
+----------------------- */
+
+.movie-p {
+    width: 60%;
+    padding-bottom: 1rem;
+}
+
+.hero-3 {
+    width: 65%;
+    padding-top: 7rem;
+    margin: auto;
+    padding-bottom: 10rem;
+}
+
+/* -----------------------
+ENTERTAINMENT
+----------------------- */
+
+#entertainment {
+    background: url(../img/entertainment.jpg) no-repeat center center/cover;
+    height: 80vh;
+}
+
+.ent-head {
+    text-align: center;
+    color: #fff;
+    padding-top: 18rem;
+    font-weight: 100;
+    width: 40%;
+}
+
+.ent-p {
+    color: #fff;
+    width: 46%;
+}
+
+/* -----------------------
+GIFTCARDS
+----------------------- */
+
+#gift {
+    background-color: #fafafa;
+    padding-bottom: 10rem;
+}
+
+.giftcards {
+    width: 100%;
+    padding-top: 10rem;
+
+}
+
+#gift h2 {
+    padding-top: 10rem;
+}
+
+.gift-h,
+.gift-p {
+    text-align: left;
+    width: 90%
+}
+
+.gift-h {
+    font-weight: 300;
+}
+
+/* -----------------------
+SOCIAL 
+----------------------- */
+
+#social {
+    padding-bottom: 10rem;
+}
+
+#social h3 {
+    padding-top: 10rem;
+    text-align: left;
+}
+
+#social p {
+    width: 60%;
+    font-size: 1.4rem;
+    text-align: left;
+    margin-top: -5.3rem;
+    padding: 0
+}
+
+.social-img {
+    width: 15%;
+    margin-top: 1rem;
+}
+
+/* -----------------------
+FOOTER 
+----------------------- */
+
+#footer {
+    background-color: #f2f2f2;
+}
+
+#footer .footer-lp-star {
+    font-size: 1rem;
+    padding-top: 2rem;
+    text-align: left;
+    width: 100%
+}
+
+#footer .footer-lp {
+    font-size: 1rem;
+    padding: .5rem;
+    text-align: left;
+    width: 100%;
+}
+
+#footer .container {
+    padding-bottom: 5rem;
+}
+
+#footer .box {
+    border-top: solid 1px;
+    border-bottom: solid 1px;
+    border-color: rgb(206, 206, 206);
+    padding: 5rem;
+}
+
+.apple-lead {
+    font-size: 1.1rem;
+    font-weight: 300;
+    text-align: left;
+    margin-bottom: 1rem;
+    width: 100%;
+}
+
+.apple-info {
+    font-size: 1rem;
+    text-align: left;
+    font-weight: 100;
+    padding-bottom: 1rem;
+}
+
+.copyright {
+    font-size: 1.1rem;
+    padding: 0;
+}
+
+#footer p {
+    padding: 0;
+}
+
+.copy-list {
+    margin: 1rem auto;
+}
+
+.copy-list li {
+    display: inline;
+    font-size: 1.1rem;
+    padding: 1rem;
+    font-weight: 100;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* -----------------------
+MEDIA QUERIES
+----------------------- */
+
+
+/* 
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 479px
+*/
+
+@media (min-width: 320px) and (max-width: 480px) {
+
+    body {
+        padding: 3rem;
+    }
+
+
+    h1 {
+        font-size: 3.5rem;
+    }
+
+    p {
+        font-size: 1.5rem;
+        width: 90%;
+    }
+
+    h2 {
+        font-size: 3rem;
+        width: 70%;
+    }
+
+
+    /* MUSIC */
+
+    .apple-head {
+        font-size: 3rem;
+        width: 70%;
+    }
+
+    /* MOVIE */
+
+    .movie-p {
+        width: 90%;
+    }
+
+    /* ENTERTAINMENT */
+
+    .ent-head {
+        width: 92%;
+    }
+
+    .ent-p {
+        width: 90%;
+    }
+
+    /* GIFTCARDS */
+
+    .gift-h,
+    .gift-p {
+        text-align: center;
+    }
+
+    .gift-p {
+        width: 95%;
+    }
+
+
+    /* SOCIAL  */
+
+    #social h3 {
+        text-align: center;
+    }
+
+    #social p {
+        width: 60%;
+        font-size: 1.4rem;
+        text-align: center;
+        margin-top: -4.5rem;
+        margin-right: 5rem;
+        padding: 0
+    }
+
+    .social-img {
+        margin-left: 1rem;
+        margin-top: 1rem;
+    }
+
+
+    /* FOOTER */
+
+    #footer ul li,
+    #footer p {
+        text-align: center;
+    }
+
+    .copyright {
+        font-size: 1rem;
+    }
+
+    .copy-list {
+        text-align: center;
+    }
+
+    .copy-list li {
+        font-size: .2rem;
+        text-align: center;
+    }
+
+}
+
+
+
+/* 
+  ##Device = Low Resolution Tablets, Mobiles (Landscape)
+  ##Screen = B/w 481px to 767px
+*/
+
+@media (min-width: 481px) and (max-width: 767px) {
+
+    body {
+        padding: 3rem;
+    }
+
+
+    h1 {
+        font-size: 5.5rem;
+    }
+
+    p {
+        font-size: 2rem;
+        width: 90%;
+    }
+
+    h2 {
+        font-size: 3.5rem;
+        width: 70%;
+    }
+
+
+    /* MUSIC */
+
+    .apple-head {
+        font-size: 3.5rem;
+        width: 70%;
+    }
+
+    /* MOVIE */
+
+    .movie-p {
+        width: 90%;
+    }
+
+    /* ENTERTAINMENT */
+
+    .ent-head {
+        padding-top: 10rem;
+        width: 92%;
+    }
+
+    .ent-p {
+        width: 90%;
+    }
+
+    /* GIFTCARDS */
+
+    .gift-h,
+    .gift-p {
+        text-align: center;
+    }
+
+    .gift-p {
+        width: 95%;
+    }
+
+
+    /* SOCIAL  */
+
+    #social h3 {
+        text-align: center;
+    }
+
+    #social p {
+        width: 69%;
+        font-size: 1.6rem;
+        text-align: center;
+        margin-top: -4.5rem;
+        margin-right: 5rem;
+        padding: 0
+    }
+
+    .social-img {
+        margin-left: 1rem;
+        margin-top: 1rem;
+    }
+
+
+    /* FOOTER */
+
+    #footer ul li,
+    #footer p {
+        text-align: center;
+    }
+
+    .apple-lead {
+        font-size: 1rem;
+    }
+
+    .apple-info {
+        font-size: 1rem;
+    }
+
+    .copyright {
+        font-size: 1.2rem;
+    }
+
+    .copy-list {
+        text-align: center;
+        margin: 1rem auto;
+    }
+
+    .copy-list li {
+        font-size: .5rem;
+        text-align: center;
+    }
+
+
+}
+
+/* 
+  ##Device = Tablets, Ipads (landscape)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+
+    body {
+        padding: 3rem;
+    }
+
+
+    h1 {
+        font-size: 5.5rem;
+    }
+
+    p {
+        font-size: 2rem;
+        width: 90%;
+    }
+
+    h2 {
+        font-size: 3.5rem;
+        width: 70%;
+    }
+
+    #social h3 {
+        text-align: center;
+    }
+
+    #social p {
+        width: 75%;
+        margin-right: -.5rem;
+    }
+
+    .social-img {
+        width: 20%;
+        margin-top: 1rem;
+    }
+
+
+}
+
+/* 
+  ##Device = Tablets, Ipads (portrait)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) {
+
+    body {
+        padding: 3rem;
+    }
+
+
+    h1 {
+        font-size: 5.5rem;
+    }
+
+    p {
+        font-size: 2rem;
+        width: 90%;
+    }
+
+    h2 {
+        font-size: 3.5rem;
+        width: 70%;
+    }
+
+    h3 {
+        padding-bottom: 2rem;
+    }
+
+    #social h3 {
+        text-align: center;
+    }
+
+    #social p {
+        width: 60%;
+        margin-right: 3rem;
+        text-align: left;
+    }
+
+    .social-img {
+        width: 18%;
+        margin-left: 1rem;
+        margin-top: 1rem;
+    }
+
+
+}
+
+/* 
+  ##Device = Laptops, Desktops
+  ##Screen = B/w 1025px to 1280px
+*/
+
+@media (min-width: 1025px) and (max-width: 1280px) {
+
+    /* //CSS */
+
+}
+
+/* Landscape for Ipad Pro*/
+
+@media only screen and (min-width: 1366px) and (max-height: 1024px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: landscape) {
+
+    body {
+        padding: 3rem;
+    }
+
+
+    h1 {
+        font-size: 6.5rem;
+    }
+
+    h2 {
+        font-size: 3.7rem;
+        width: 70%;
+    }
+
+}
+
+/* 
+  ##Device = Desktops
+  ##Screen = 1441px to higher resolution desktops
+*/
+
+@media (min-width: 1441px) {}
