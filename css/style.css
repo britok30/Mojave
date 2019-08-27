@@ -581,12 +581,12 @@ MEDIA QUERIES
 
     .ent-head {
         font-size: 3rem;
-        padding: .5rem;
+        padding-top: 7rem;
         width: 45%;
     }
 
     .ent-p {
-        font-size: 1.5rem;
+        font-size: 2rem;
         width: 80%;
         padding-bottom: 3rem;
     }
