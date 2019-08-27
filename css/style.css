@@ -574,6 +574,21 @@ MEDIA QUERIES
         width: 70%;
     }
 
+    #entertainment {
+        height: auto;
+    }
+
+    .ent-head {
+        padding-top: 5rem;
+        width: 65%;
+    }
+
+    .ent-p {
+        width: 85%;
+        padding-bottom: 3rem;
+    }
+
+
     #social h3 {
         text-align: center;
     }
